@@ -1,5 +1,7 @@
 # redis-speed
 
-Redis is engineered for high performance, enabling exceptionally fast read and write operations by storing data in RAM rather than on traditional disk storage.
+Redis is an in-memory data structure store used as a database, cache, and message broker.
+It is often used in distributed software systems, and system design interviews.
+It is helpful for engineers to know how well Redis performs.
 
-In this repository, we assess Redis's throughput by sending requests using a Python script.
+In this repository, we assess Redis's throughput by sending requests using Python.
