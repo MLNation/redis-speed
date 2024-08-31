@@ -4,7 +4,7 @@ import time
 
 def genRandomLatLong():
     result = []
-    for i in range(0, 100000):
+    for i in range(0, 1000 * 1000):
         result.append((i, random.uniform(-180, 180), random.uniform(-90, 90)))
     return result
 
